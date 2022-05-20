@@ -137,46 +137,32 @@ main {
 
 /* Filtres */
 
-.filtres {
+.filtres, ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
+
     margin-top: 50px;
-    padding-left: 0;
+    margin-bottom: 40px;
+    padding-left: 0;    
 }
+
+.filtreTitre {
+    margin-right: 30px;
+} 
 
 .filtreIcoTxt {
-    display: flex;
     border: solid 2px var(--color3);
-    border-radius: 25px;
-    padding: 15px;
-    color: var(--color1);
-    font-weight: bold;
-    animation: animfiltres 1s linear 0s;
-    display: block;
-    overflow: hidden;    
-}
-
-.filtreIco {
+    height: 50px;
+    border-radius: 30px;
     margin-right: 20px;
 }
 
-/* .filtreIcoTxt:before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: -70%;
+.filtreIco {
     border-radius: 25px;
-    width: 100%;
-    height: 100%;
-    background: var(--color2);
-    z-index: -1;
-    transform-origin: center;
-    transform: translateX(0%);
-    transition-duration: 1s;
-} 
-
-.filtreIcoTxt:hover {
-    transform: translateX(50%);
-} */
+    width: 52px;
+    height: 52px;
+    color: var(--color1);
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
