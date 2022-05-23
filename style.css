@@ -17,6 +17,7 @@ main {
     width: 1280px;
     
     margin: 0 auto;
+    padding: 0;
     /* background: var(--color3); */
     font-family: 'raleway', sans-serif;
 
@@ -137,32 +138,159 @@ main {
 
 /* Filtres */
 
-.filtres, ul {
-    display: flex;
+.filtres {
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;  
+}
 
-    margin-top: 50px;
-    margin-bottom: 40px;
-    padding-left: 0;    
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px; 
+    align-items: center;
+    justify-content: space-between;    
 }
 
 .filtreTitre {
     margin-right: 30px;
-} 
-
-.filtreIcoTxt {
-    border: solid 2px var(--color3);
-    height: 50px;
-    border-radius: 30px;
-    margin-right: 20px;
 }
 
-.filtreIco {
+.filtreIcoTxt {
+    border: solid 2px rgba(128, 128, 128, 0.212);
     border-radius: 25px;
-    width: 52px;
-    height: 52px;
-    color: var(--color1);
-    background-color: var(--color2);
+    border-left: transparent;
+    margin-right: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+}
+
+.filtreTxt {
+    padding-left: 20px;
+    padding-right: 20px; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.filtreIco {
+    background: var(--color2);
+    width: 52px;
+    height: 52px;
+    border-radius: 25px;
+    color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtreIco:hover {
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.filtreIcoTxt:hover {
+    color: var(--color1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.filtreTxt {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.filtreTitre {
+    font-size: 15px;
+    font-weight: 600;
+}  */
+
+/* 
+
+
+
+.filtreIcoTxt {
+    border: solid 2px rgba(128, 128, 128, 0.315);
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;    
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-left: transparent;    
+} */
+
+
+
+    
+
+
+
+
+
+
+/*    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;      
+}
+
+.filtreTitre {
+    margin-right: 50px;
+}
+
+.filtreIcoTxt {
+    border: solid 2px var(--color3);
+    border-radius: 30px;
+    margin-right: 20px;
+    height: 48px;
+    z-index: -1;
+    
+    
+}
+
+.filtreTxt {
+    border: solid 2px var(--color3);
+    border-radius: 30px;
+    padding-right: 10px;
+    padding-left: 70px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+.filtreIco {
+    position: absolute;
+    margin-right: 10px;
+    padding-left: 50px;
+    margin-bottom: 12px;
+    color: var(--color1);
+    border: solid px var(--color2);
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background: var(--color2);
+    padding: 15px;
+    
+
+}
+
+.filtreIco:hover {
+    color: var(--color2);
+    background-color: var(--color1); */
+/* }  */
