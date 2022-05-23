@@ -5,9 +5,8 @@
     font-family: 'raleway', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-
+/* couleur de base  */
 :root {
     --color1: #0065fc;
     --color2: #DEEBFF;
@@ -198,12 +197,11 @@ ul {
 /* Information */
 
 .info {
-    width: 440px;
+    width: 460px;
     display: flex;
     align-items: center;
     margin-left: 15px;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 .iconInfo {
