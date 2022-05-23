@@ -2,6 +2,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration-line: none;
+    font-family: 'raleway', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
@@ -13,14 +14,10 @@
     --color3: #F2F2F2;    
 }
 
-main {
-    width: 1280px;
-    
-    margin: 0 auto;
-    padding: 0;
-    /* background: var(--color3); */
-    font-family: 'raleway', sans-serif;
-
+body {
+    /* width: 100%; */
+    margin-left: 40px;
+    width: 1300px;
 }
 /* Nav top */
 
@@ -80,7 +77,8 @@ main {
     justify-content: left;
     align-items: center;
     width: 400px;
-    position: relative;       
+    position: relative;
+    margin-top: 30px;       
 }
 
 #icon {
@@ -96,12 +94,15 @@ main {
 
 #button {
     border: solid var(--color1);
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
     background: var(--color1);
     height: 50px;
     position: absolute;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 500;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #shearchText {
@@ -139,9 +140,9 @@ main {
 /* Filtres */
 
 .filtres {
-    width: 80%;
-    margin-top: 40px;
-    margin-bottom: 40px;  
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 25px;  
 }
 
 ul {
@@ -153,14 +154,14 @@ ul {
 }
 
 .filtreTitre {
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .filtreIcoTxt {
     border: solid 2px rgba(128, 128, 128, 0.212);
     border-radius: 25px;
     border-left: transparent;
-    margin-right: 20px;
+    margin-right: 30px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -168,12 +169,11 @@ ul {
 }
 
 .filtreTxt {
-    padding-left: 20px;
-    padding-right: 20px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 17px; 
+} 
 
 .filtreIco {
     background: var(--color2);
@@ -181,9 +181,9 @@ ul {
     height: 52px;
     border-radius: 25px;
     color: var(--color1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 18px;
+    padding-top: 18px;
+    
 }
 
 .filtreIco:hover {
@@ -195,102 +195,43 @@ ul {
     color: var(--color1);
 }
 
+/* Information */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-.filtreTxt {
-    font-size: 18px;
-    margin-left: 20px;
-}
-
-.filtreTitre {
-    font-size: 15px;
-    font-weight: 600;
-}  */
-
-/* 
-
-
-
-.filtreIcoTxt {
-    border: solid 2px rgba(128, 128, 128, 0.315);
-    border-radius: 30px;
-    height: 50px;
+.info {
+    width: 440px;
     display: flex;
-    align-items: center;    
-    padding-right: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    border-left: transparent;    
-} */
-
-
-
-    
-
-
-
-
-
-
-/*    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 40px;      
-}
-
-.filtreTitre {
-    margin-right: 50px;
-}
-
-.filtreIcoTxt {
-    border: solid 2px var(--color3);
-    border-radius: 30px;
-    margin-right: 20px;
-    height: 48px;
-    z-index: -1;
-    
+    align-items: center;
+    margin-left: 15px;
+    justify-content: space-between;
     
 }
 
-.filtreTxt {
-    border: solid 2px var(--color3);
-    border-radius: 30px;
-    padding-right: 10px;
-    padding-left: 70px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    
-}
-
-.filtreIco {
-    position: absolute;
-    margin-right: 10px;
-    padding-left: 50px;
-    margin-bottom: 12px;
+.iconInfo {
     color: var(--color1);
-    border: solid px var(--color2);
-    width: 50px;
-    height: 50px;
-    border-radius: 30px;
-    background: var(--color2);
-    padding: 15px;
-    
-
+    border: solid 1px rgba(128, 128, 128, 0.233);
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    text-align: center; 
+    margin-right: 15px;   
 }
 
-.filtreIco:hover {
-    color: var(--color2);
-    background-color: var(--color1); */
-/* }  */
+.txtInfo {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+

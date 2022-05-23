@@ -7,12 +7,12 @@
     <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/logo/Booki.png">
-    <script src="https://kit.fontawesome.com/c04bc24c62.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Booki</title>
-
 </head>
+
 <body>
-    <main>
+    <header>
 <!-- NavTop -->
         <nav>
             <div class="banièreTop">
@@ -23,47 +23,49 @@
                 </div>
             </div>    
         </nav>
-<!-- header  -->
-        <header>
-            <section>
-                <div class="titre">
-                    <div><h1>Trouvez votre hébergement pour des vacances de rêve</h1></div>
-                    <div><p>En plein centre ville ou en pleine nature</p></div>
+<!-- Titre et barre de recherche  -->
+        <div>
+            <div class="titre">
+                <div><h1>Trouvez votre hébergement pour des vacances de rêve</h1></div>
+                <div><p>En plein centre ville ou en pleine nature</p></div>
+            </div>
+            <div class="shearch">
+                <div id="icon">
+                    <i class="fa-solid fa-location-dot"></i>
                 </div>
-                <div class="shearch">
-                    <div id="icon">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <div id="form1">                    
-                        <form>
-                            <input id="shearchText" type="text" name="destination" placeholder="Marseille, France">
-                            <button id="button">Rechercher</button>
-                        </form>
-                    </div>
-                </div>    
-            </section>
-    <!-- Filtres -->
-            <section>
-                <div class="filtres">
-                        <ul>
-                            <li class="filtreTitre"><h3>Filtres</h3></li>
+                <div id="form1">                    
+                    <form>
+                        <input id="shearchText" type="text" name="destination" placeholder="Marseille, France">
+                        <button id="button">Rechercher</button>
+                    </form>
+                </div>
+            </div>    
+        </div>
+<!-- Filtres -->
+        <div class="filtres">
+                <ul>
+                    <li class="filtreTitre"><h3>Filtres</h3></li>
 
-                            <li class="filtreIcoTxt"><i class="fa-solid fa-money-bill-wave filtreIco"></i>
-                                <div class="filtreTxt">Economique</div></li> 
-                               
-                            <li class="filtreIcoTxt"><i class="fa-solid fa-child-reaching filtreIco"></i>
-                                <div class="filtreTxt">Familial</div></li>
-                            </li>
-                            <li class="filtreIcoTxt"><i class="fa-solid fa-heart filtreIco"></i>
-                                <div class="filtreTxt">Romantique</div></li> 
-                            </li>                        
-                            <li class="filtreIcoTxt"><i class="fa-solid fa-dog filtreIco"></i>
-                                <div class="filtreTxt">Animaux autorisés</div></li>                    
-                        </ul>
-                    </div>
-                </div>
-            </section>   
-        </header>
-    </main>    
+                    <li class="filtreIcoTxt"><i class="fa-solid fa-money-bill-wave filtreIco"></i>
+                        <div class="filtreTxt">Economique</div></li> 
+                        
+                    <li class="filtreIcoTxt"><i class="fa-solid fa-child-reaching filtreIco"></i>
+                        <div class="filtreTxt">Familial</div></li>
+                    </li>
+                    <li class="filtreIcoTxt"><i class="fa-solid fa-heart filtreIco"></i>
+                        <div class="filtreTxt">Romantique</div></li> 
+                    </li>                        
+                    <li class="filtreIcoTxt"><i class="fa-solid fa-dog filtreIco"></i>
+                        <div class="filtreTxt">Animaux autorisés</div></li>                    
+                </ul>
+            </div>
+        </div>
+        <div class="info">
+            <div class="iconInfo"><i class="fa-solid fa-info"></i>
+            </div>
+            <div class="txtInfo"><p>Plus de 500 logements sont disponibles dans cette ville</p></div>
+            </div>
+        </div>      
+    </header>    
 </body>
 </html>
