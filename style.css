@@ -196,7 +196,7 @@ nav .banièreTop {
     margin-right: 0;  
 }
 
-ul {
+.filtre, ul {
     display: flex;
     padding-left: 30px; 
     align-items: center;
@@ -448,6 +448,7 @@ ul {
 .blockCardActivites {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 .cardActivitesColumn {
@@ -498,14 +499,27 @@ ul {
 
 .blockFooter {
     width: 100%;
-    height: 250px;
-    background: red;
+    height: 220px;
+    background: var(--color3);
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-evenly;
+    height: 180px;  
 }
 
 .footerblock {
     width: 30%;
-    border: solid 1px black;
+    padding-left: 50px;
     
+}
+
+.footerblock ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    align-items: flex-start;
+    row-gap: 10px;
+
+    
+    
+
 }
