@@ -105,7 +105,7 @@ header, main {
     color: black;   
 }
 
-.banièreTop img {
+.baniereTop img {
     width: 110px;
     height: auto;
     padding-top: 40px;
@@ -492,74 +492,3 @@ footer {
     color: black;
 }
 
-/*---------- MEDIA QUERIES ----------*/
-            /* TABLETTE  */
-@media only screen and (max-width: 992px){
-    header {
-        padding: 0;
-    }
-
-    .baniereTop {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .liensBaniere a{
-        min-width: 496px;
-        justify-content: center;
-        padding: 50px 20px 5px 20px;
-    }
-
-    .baniereTop img {
-        width: 150px;
-    }
-
-    .liensBaniere a:hover {
-        border-top: none;
-        border-bottom: solid 2px var(--color1);
-    }
-
-    .blockFitreTxtIcon ul {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        margin-bottom: 10px;
-        
-    }
-
-    .fitreTxtIcon, li {
-        margin-top: 10px;
-    }
-
-    #button {
-        display: none;
-    }
-
-    #iconLoupe {
-        display: block;
-        padding: 0 20px;
-        
-        font-size: 20px;
-    }
-
-    .blockHebergementsPlusPopulaires {
-        flex-direction: column-reverse;
-    }
-
-    .blockLesPlusPop {
-        margin-bottom: 20px;
-        margin-right: 20px;
-        
-    }
-    .blockLesPlusPop a {
-        margin-right: 0;
-        width: 100%;
-    }
-    
-    .cardHebergement, a {
-        width: 45%;
-    }
-    
-    .imgcardHebergement img {
-        width: 100%;
-    }
-}
