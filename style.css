@@ -536,6 +536,9 @@ footer {
 
     #iconLoupe {
         display: block;
+        padding: 0 20px;
+        
+        font-size: 20px;
     }
 
     .blockHebergementsPlusPopulaires {
@@ -544,13 +547,19 @@ footer {
 
     .blockLesPlusPop {
         margin-bottom: 20px;
-        width: 100%;
+        margin-right: 20px;
+        
     }
     .blockLesPlusPop a {
         margin-right: 0;
-        width: 50%;
+        width: 100%;
     }
     
+    .cardHebergement, a {
+        width: 45%;
+    }
     
-
+    .imgcardHebergement img {
+        width: 100%;
+    }
 }
