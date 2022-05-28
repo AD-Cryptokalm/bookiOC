@@ -37,7 +37,7 @@ header, main {
 
 /* ------------------------HOVERS------------------------- */
 
-.liensBanière a:hover {
+.liensBaniere a:hover {
     border-top: solid 2px var(--color1);
     color: var(--color1);
 }
@@ -51,7 +51,7 @@ header, main {
     color: var(--color2);    
 }
 
-.cardhébergement:hover {
+.cardHebergement:hover {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -90,15 +90,15 @@ header, main {
 
 /* ----------BANIERE TOP---------- */
 
-.banièreTop {
+.baniereTop {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.liensBanière {
+.liensBaniere {
     display: flex;
 }
-.liensBanière a{
+.liensBaniere a{
     display: flex;
     border-top: solid 2px transparent;
     padding: 50px 30px 0 30px;
@@ -161,6 +161,16 @@ form {
     border: var(--color1);
     font-size: 18px;
     padding: 10px 20px 10px 20px;
+}
+
+#iconLoupe {
+    height: 50px;
+    background: var(--color1);
+    border-radius: 0 15px 15px 0;
+    border: var(--color1);
+    color: white;
+    display: none;
+    
 }
 
 .iconShearch {
@@ -247,7 +257,7 @@ form {
     justify-content: space-between;    
 }
 
-.blockHébergement {
+.blockHebergement {
     background: var(--color3);
     height: auto;
     width: auto;
@@ -257,13 +267,13 @@ form {
     margin-right: 20px;    
 }
 
-.blockCardHébergement {
+.blockCardHebergement {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.cardhébergement {
+.cardHebergement {
     width: auto;
     height: 200px;
     background: white;
@@ -283,13 +293,13 @@ form {
     border-radius: 17px 17px 0 0;
 }
 
-.bodyCardHébergement, h3, p {
+.bodyCardHebergement, h3, p {
     margin: 3px;
     font-size: 15px;
     color: black;
 }
 
-.bodyCardHébergement {
+.bodyCardHebergement {
     margin-left: 15px;
 }
 
@@ -317,7 +327,7 @@ form {
     display: flex; 
     border-radius: 20px;
     height: 150px;
-    width: 100%;
+    width: 400px;
     background: white;
     padding: 5px;
     margin-top: 15px;
@@ -353,7 +363,7 @@ form {
 
 /* --------------Block Activités-------------- */
 
-.blockActivitésMarseille {
+.blockActivitesMarseille {
     width: 100%;
     height: 500px;
     margin-top: 50px;
@@ -489,33 +499,58 @@ footer {
         padding: 0;
     }
 
-    .banièreTop {
+    .baniereTop {
         flex-direction: column;
         align-items: center;
     }
 
-    .liensBanière a{
+    .liensBaniere a{
         min-width: 496px;
         justify-content: center;
         padding: 50px 20px 5px 20px;
     }
 
-    .banièreTop img {
+    .baniereTop img {
         width: 150px;
     }
 
-    .liensBanière a:hover {
+    .liensBaniere a:hover {
         border-top: none;
         border-bottom: solid 2px var(--color1);
     }
 
-    .fitreTxtIcon ul {
+    .blockFitreTxtIcon ul {
         flex-wrap: wrap;
         justify-content: flex-start;
+        margin-bottom: 10px;
+        
+    }
+
+    .fitreTxtIcon, li {
         margin-top: 10px;
     }
 
-    .fitreTxtIcon li {
-        margin-top: 10px;
+    #button {
+        display: none;
     }
+
+    #iconLoupe {
+        display: block;
+    }
+
+    .blockHebergementsPlusPopulaires {
+        flex-direction: column-reverse;
+    }
+
+    .blockLesPlusPop {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .blockLesPlusPop a {
+        margin-right: 0;
+        width: 50%;
+    }
+    
+    
+
 }
