@@ -96,6 +96,7 @@ header, main {
 }
 .liensBaniere {
     display: flex;
+    cursor: pointer;
 }
 .liensBaniere a{
     display: flex;
@@ -150,6 +151,7 @@ header, main {
     font-size: 18px;
     border: solid 1px rgba(128, 128, 128, 0.219);
     padding-left: 15px;
+    outline: none;
 }
 
 #button {
@@ -160,6 +162,7 @@ header, main {
     border: var(--color1);
     font-size: 18px;
     padding: 10px 20px 10px 20px;
+    cursor: pointer;
 }
 
 #iconLoupe {
@@ -169,6 +172,7 @@ header, main {
     border: var(--color1);
     color: white;
     display: none;
+    cursor: pointer;
     
 }
 
@@ -195,6 +199,7 @@ header, main {
 .blockFitreTxtIcon ul {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .blockFitreTxtIcon li {
@@ -332,6 +337,7 @@ header, main {
     padding: 5px;
     margin-top: 15px;
     transition: transform 1s;
+    cursor: pointer;
 }
 
 .imgCardPop, img {
@@ -379,6 +385,7 @@ header, main {
     margin-bottom: 0;
     width: 100%;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .cardActivitesColumn {
