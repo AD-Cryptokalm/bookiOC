@@ -1,33 +1,33 @@
 /*---------- MEDIA QUERIES ----------*/
             /* TABLETTE  */
             @media only screen and (max-width: 992px){
-                header {
+                header, main {
                     padding: 0;
                 }
             
                 .baniereTop {
                     flex-direction: column;
                     align-items: center;
-                    width: 100%;
-                }
-            
-                .liensBaniere a{
-                    width: 100%;
                     justify-content: center;
                 }
 
                 .ancre {
+                    width: 50%;
+                    
+                }
+            
+                .liensBaniere a {
                     width: 100%;
+                    justify-content: center;
+                    padding-bottom: 10px;
+                    font-size: 20px;
+                    
                 }
 
                 .liensBaniere {
                     width: 100%;
                 }
 
-                .liensBaniere .ancre{
-                    justify-content: center;
-                }
-            
                 .baniereTop img {
                     width: 150px;
                 }
@@ -47,30 +47,35 @@
                 .fitreTxtIcon, li {
                     margin-top: 10px;
                 }
-            
-                #button {
-                    display: none;
-                }
-            
-                #iconLoupe {
-                    display: block;
-                    padding: 0 20px;
-                    
-                    font-size: 20px;
-                }
-            
+        
                 .blockHebergementsPlusPopulaires {
                     flex-direction: column-reverse;
                 }
-            
-                .blockLesPlusPop {
-                    margin-bottom: 20px;
-                    margin-right: 20px;
-                    
-                }
+        
                 .blockLesPlusPop a {
-                    margin-right: 0;
                     width: 100%;
+                    /* background-color: red; */
+                }
+
+                .imgCardPop {
+                    flex: 1;
+                }
+
+                .bodyCardPop {
+                    flex: 2;
+                }
+
+                .imgCardPop, img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 17px 0 0 17px;
+                }
+
+                .blockHebergement {
+                    margin-top: 20px;
+                    width: 100%;
+
                 }
                 
                 .cardHebergement, a {
@@ -79,5 +84,14 @@
                 
                 .imgcardHebergement img {
                     width: 100%;
+                }
+
+                .blockCardActivites {
+                    flex-wrap: wrap;
+                    font-size: 10px;
+                }
+               
+                .fontSizeActivites h3 {
+                    font-size: 14px;
                 }
             }

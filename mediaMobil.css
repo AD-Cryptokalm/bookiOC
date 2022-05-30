@@ -1,0 +1,77 @@
+@media only screen and (max-width: 768px){
+
+    
+    header, main {
+        padding: 0;
+    }
+
+    .baniereTop {
+        justify-content: center;
+    }
+    
+    .ancre {
+        width: 50%;
+    }
+    
+    .liensBaniere a {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .titreBlock {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .titre, h1 {
+        font-size: 20px;
+    }
+
+    .pTitre {
+        width: 100%;
+    }
+    
+    .formShearch {        
+        display: flex;
+       
+    }
+
+    #shearchText{
+        font-size: 16px;
+        font-weight: bold;
+    
+        border-right: transparent;
+    }
+
+    #button {
+        display: none;
+    }
+
+    #iconLoupe {
+        position: relative;
+        right: 10px;
+        display: block;
+        padding: 0 20px;
+        font-size: 19px;
+    }
+
+    .filtres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .blockFitreTxtIcon ul {
+        padding: 0;
+    }
+
+    .blockLesPlusPop {
+        border-radius: 0px;
+    }
+
+    .blockHebergement {
+        border-radius: 0;
+    }
+
+
+}

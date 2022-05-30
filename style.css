@@ -13,7 +13,6 @@ body {
 header, main {
     width: 90%;
     margin: 0 auto;
-    padding: 0 50px;    
 }
 
 /* ------------COULEURS----------- */
@@ -140,7 +139,7 @@ header, main {
     height: 50px;
 }
 
-form {
+.formShearch {
     width: 50px;
     display: flex;
     align-items: center;
@@ -166,7 +165,7 @@ form {
 #iconLoupe {
     height: 50px;
     background: var(--color1);
-    border-radius: 0 15px 15px 0;
+    border-radius: 15px 15px 15px 15px;
     border: var(--color1);
     color: white;
     display: none;
@@ -204,7 +203,7 @@ form {
     align-items: center;
     margin-right: 20px;
     height: 48px;
-    border: solid 1px rgba(128, 128, 128, 0.116);
+    border: solid 2px rgba(128, 128, 128, 0.116);
     border-radius: 25px;
     border-left: transparent;
     font-size: 18px;
@@ -264,7 +263,8 @@ form {
     border-radius: 20px;
     padding: 40px 40px 32px 40px;
     flex: 2;
-    margin-right: 20px;    
+    margin-right: 20px;
+        
 }
 
 .blockCardHebergement {
@@ -371,17 +371,14 @@ form {
 }
 
 .blockCardActivites {
-    width: 100%;
     height: auto;
     margin-top: 30px;
     margin-bottom: 40px;
-}
-
-.blockCardActivites {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .cardActivitesColumn {
