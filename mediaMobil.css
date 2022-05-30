@@ -14,7 +14,7 @@
     }
     
     .liensBaniere a {
-        font-size: 20px;
+        font-size: 18px;
         padding-bottom: 15px;
     }
 
@@ -22,10 +22,13 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        padding: 0 25px;
+        
     }
 
     .titre, h1 {
-        font-size: 20px;
+        font-size: 22px;
+        
     }
 
     .pTitre {
@@ -34,6 +37,8 @@
     
     .formShearch {        
         display: flex;
+        padding: 0 25px;
+
        
     }
 
@@ -59,19 +64,112 @@
     .filtres {
         flex-direction: column;
         align-items: flex-start;
+        padding: 0 25px;
     }
 
     .blockFitreTxtIcon ul {
         padding: 0;
     }
 
+    .info {
+        align-items: flex-start;
+        padding: 0 25px;
+    }
+    .iconInfo {
+        font-size: x-small;
+        width: 30px;
+        margin: 0;
+    }
+
     .blockLesPlusPop {
         border-radius: 0px;
+        padding: 25px;
     }
 
     .blockHebergement {
         border-radius: 0;
+        padding: 25px;
+        margin-right: 0;
+        background: none;
     }
+
+    .blockCardHebergement {
+        flex-direction: column;
+    }
+
+    .cardHebergement {
+        width: auto;
+    }
+
+    .blockActivitesMarseille {
+        padding: 0 25px;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .blockCardActivites {
+        flex-direction: column;
+        
+    }
+
+    .cardActivitesColumn {
+        width: auto;
+        height: 100%;
+        
+    }
+
+    .cardActivite1 {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .cardActivite1 img {
+        height: 150px;
+    }
+    .cardActivite2 {
+        height: 200px;
+    }
+
+    .cardActivite2 img {
+        height: 150px;
+    }
+
+    .cardActivite3 img {
+        height: 150px;
+    }
+
+    .cardActivite3 {
+        height: 200px;
+    }
+
+    .cardActivite4 img {
+        height: 150px;
+    }
+
+    .cardActivite4 {
+        height: 200px;
+    }
+
+    footer {
+        height: 100%;
+        margin: 0 25px;
+    }
+
+    .blockFooter {
+        flex-direction: column;
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    .titreCardSize {
+        font-size: 18px;
+    }
+
+    .footerblock {
+        font-size: 16px;
+        width: 100%;
+    }
+    
 
 
 }

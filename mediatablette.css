@@ -12,16 +12,13 @@
                 }
 
                 .ancre {
-                    width: 50%;
-                    
+                    width: 50%;    
                 }
             
                 .liensBaniere a {
                     width: 100%;
                     justify-content: center;
-                    padding-bottom: 10px;
-                    font-size: 20px;
-                    
+                    padding-bottom: 10px;                    
                 }
 
                 .liensBaniere {
@@ -29,7 +26,8 @@
                 }
 
                 .baniereTop img {
-                    width: 150px;
+                    width: 120px;
+                    margin-left: 20px;
                 }
             
                 .liensBaniere a:hover {
