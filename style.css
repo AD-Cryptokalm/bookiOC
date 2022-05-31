@@ -474,14 +474,17 @@ footer {
 
 .blockFooter {
     display: flex;
-    width: 83%;
-    margin: 0 auto;
+    justify-content: space-evenly;
+    
+    margin: 0 ;
     height: 180px;
     padding-top: 30px;  
 }
 
 .footerblock {
-    width: 33%;
+    width: 26%;
+    
+   
 }
 
 .footerblock ul {

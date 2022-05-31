@@ -45,7 +45,6 @@
     #shearchText{
         font-size: 16px;
         font-weight: bold;
-    
         border-right: transparent;
     }
 
@@ -152,7 +151,7 @@
 
     footer {
         height: 100%;
-        margin: 0 25px;
+        margin: 0px;
     }
 
     .blockFooter {
@@ -167,7 +166,9 @@
 
     .footerblock {
         font-size: 16px;
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
+        
     }
     
 
