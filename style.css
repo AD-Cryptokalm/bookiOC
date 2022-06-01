@@ -9,7 +9,6 @@ body {
     margin: 0;
 }
 
-
 header, main {
     width: 90%;
     margin: 0 auto;
@@ -34,58 +33,6 @@ header, main {
     color: black;
 }
 
-/* ------------------------HOVERS------------------------- */
-
-.liensBaniere a:hover {
-    border-top: solid 2px var(--color1);
-    color: var(--color1);
-}
-
-.filtreTxt:hover {
-    color: var(--color1);   
-}
-
-.TxtIconFiltre i:hover {
-    background: var(--color1);
-    color: var(--color2);    
-}
-
-.cardHebergement:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.blockCardPop a:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.cardActivite1:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-} 
-
-.cardActivite2:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-} 
-
-.cardActivite3:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.cardActivite4:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
 
 /* ----------BANIERE TOP---------- */
 
@@ -94,10 +41,12 @@ header, main {
     display: flex;
     justify-content: space-between;
 }
+
 .liensBaniere {
     display: flex;
     cursor: pointer;
 }
+
 .liensBaniere a{
     display: flex;
     border-top: solid 2px transparent;
@@ -110,6 +59,11 @@ header, main {
     height: auto;
     padding-top: 40px;
     padding-left: 10px;
+}
+
+.liensBaniere a:hover {
+    border-top: solid 2px var(--color1);
+    color: var(--color1);
 }
 
 /* ----------TITRE--------- */
@@ -134,8 +88,7 @@ header, main {
 
 /* ----------BARRE DE RECHERCHE---------- */
 
-.shearch {
-    
+.shearch {   
     width: 450px;
     height: 50px;
 }
@@ -232,6 +185,15 @@ header, main {
     padding: 20px;
 }
 
+.filtreTxt:hover {
+    color: var(--color1);   
+}
+
+.TxtIconFiltre i:hover {
+    background: var(--color1);
+    color: var(--color2);    
+}
+
 /* ----------INFORMATION---------- */
 
 .info {
@@ -268,8 +230,7 @@ header, main {
     border-radius: 20px;
     padding: 40px 40px 32px 40px;
     flex: 2;
-    margin-right: 20px;
-        
+    margin-right: 20px;        
 }
 
 .blockCardHebergement {
@@ -310,6 +271,10 @@ header, main {
 
 .sizeiconCard {
     font-size: 12px;
+}
+
+.cardHebergement:hover {
+    transform: scale(1.1);
 }
 
 /* -----------Les plus populaires----------  */
@@ -366,6 +331,11 @@ header, main {
 .fontBold {
     font-weight: bold;
 }
+
+.blockCardPop a:hover {
+    transform: scale(1.1);
+}
+
 
 /* --------------Block Activités-------------- */
 
@@ -463,6 +433,22 @@ header, main {
     font-size: 16px;
 }
 
+.cardActivite1:hover {
+    transform: scale(1.1);
+} 
+
+.cardActivite2:hover {
+    transform: scale(1.1);
+} 
+
+.cardActivite3:hover {
+    transform: scale(1.1);
+}
+
+.cardActivite4:hover {
+    transform: scale(1.1);
+}
+
 
 /*--------- FOOTER ------------ */
 
@@ -474,17 +460,14 @@ footer {
 
 .blockFooter {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
     margin: 0 ;
     height: 180px;
     padding-top: 30px;  
 }
 
 .footerblock {
-    width: 26%;
-    
-   
+    width: 26%;  
 }
 
 .footerblock ul {

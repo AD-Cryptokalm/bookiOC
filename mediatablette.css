@@ -1,95 +1,93 @@
-/*---------- MEDIA QUERIES ----------*/
-            /* TABLETTE  */
-            @media only screen and (max-width: 992px){
-                header, main {
-                    padding: 0;
-                }
-            
-                .baniereTop {
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                }
 
-                .ancre {
-                    width: 50%;    
-                }
-            
-                .liensBaniere a {
-                    width: 100%;
-                    justify-content: center;
-                    padding-bottom: 10px;                    
-                }
 
-                .liensBaniere {
-                    width: 100%;
-                }
+@media only screen and (max-width: 992px){
+    header, main {
+        padding: 0;
+    }
 
-                .baniereTop img {
-                    width: 120px;
-                    margin-left: 20px;
-                }
-            
-                .liensBaniere a:hover {
-                    border-top: none;
-                    border-bottom: solid 2px var(--color1);
-                }
-            
-                .blockFitreTxtIcon ul {
-                    flex-wrap: wrap;
-                    justify-content: flex-start;
-                    margin-bottom: 10px;
-                    
-                }
-            
-                .fitreTxtIcon, li {
-                    margin-top: 10px;
-                }
-        
-                .blockHebergementsPlusPopulaires {
-                    flex-direction: column-reverse;
-                }
-        
-                .blockLesPlusPop a {
-                    width: 100%;
-                    /* background-color: red; */
-                }
+    .baniereTop {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-                .imgCardPop {
-                    flex: 1;
-                }
+    .ancre {
+        width: 50%;    
+    }
 
-                .bodyCardPop {
-                    flex: 2;
-                }
+    .liensBaniere a {
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 10px;                    
+    }
 
-                .imgCardPop, img {
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                    border-radius: 17px 0 0 17px;
-                }
+    .liensBaniere {
+        width: 100%;
+    }
 
-                .blockHebergement {
-                    margin-top: 20px;
-                    width: 100%;
+    .baniereTop img {
+        width: 120px;
+        margin-left: 20px;
+    }
 
-                }
-                
-                .cardHebergement, a {
-                    width: 45%;
-                }
-                
-                .imgcardHebergement img {
-                    width: 100%;
-                }
+    .liensBaniere a:hover {
+        border-top: none;
+        border-bottom: solid 2px var(--color1);
+    }
 
-                .blockCardActivites {
-                    flex-wrap: wrap;
-                    font-size: 10px;
-                }
-               
-                .fontSizeActivites h3 {
-                    font-size: 14px;
-                }
-            }
+    .blockFitreTxtIcon ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 10px;  
+    }
+
+    .fitreTxtIcon, li {
+        margin-top: 10px;
+    }
+
+    .blockHebergementsPlusPopulaires {
+        flex-direction: column-reverse;
+    }
+
+    .blockLesPlusPop a {
+        width: 100%;
+    }
+
+    .imgCardPop {
+        flex: 1;
+    }
+
+    .bodyCardPop {
+        flex: 2;
+    }
+
+    .imgCardPop, img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 17px 0 0 17px;
+    }
+
+    .blockHebergement {
+        margin-top: 20px;
+        width: 100%;
+
+    }
+    
+    .cardHebergement, a {
+        width: 45%;
+    }
+    
+    .imgcardHebergement img {
+        width: 100%;
+    }
+
+    .blockCardActivites {
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+    
+    .fontSizeActivites h3 {
+        font-size: 14px;
+    }
+}
