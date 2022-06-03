@@ -89,7 +89,7 @@ header, main {
 /* ----------BARRE DE RECHERCHE---------- */
 
 .shearch {   
-    width: 450px;
+    width: auto;
     height: 50px;
 }
 
