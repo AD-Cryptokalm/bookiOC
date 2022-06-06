@@ -34,6 +34,7 @@ header, main {
 }
 
 
+
 /* ----------BANIERE TOP---------- */
 
 .baniereTop {
@@ -153,6 +154,7 @@ header, main {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    padding-left: 20px;
 }
 
 .blockFitreTxtIcon li {
@@ -164,7 +166,7 @@ header, main {
     border: solid 2px rgba(128, 128, 128, 0.116);
     border-radius: 25px;
     border-left: transparent;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 800;
 }
 
@@ -182,7 +184,7 @@ header, main {
 }
 
 .filtreTxt {
-    padding: 20px;
+    padding: 10px;
 }
 
 .filtreTxt:hover {

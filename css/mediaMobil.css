@@ -60,10 +60,12 @@
         flex-direction: column;
         align-items: flex-start;
         padding: 0 25px;
+        
     }
 
     .blockFitreTxtIcon ul {
         padding: 0;
+        padding-left: 0;
     }
 
     .info {
@@ -162,6 +164,15 @@
         font-size: 16px;
         width: 80%;
         margin: 0 auto; 
+    }
+
+    header {
+        margin: 0;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
     }
     
 
