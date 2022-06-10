@@ -5,12 +5,17 @@
         padding: 0;
     }
 
+    header {
+        margin: 0;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+    }
+
     .baniereTop {
         justify-content: center;
-    }
-    
-    .ancre {
-        width: 50%;
     }
     
     .liensBaniere a {
@@ -81,6 +86,7 @@
     .blockLesPlusPop {
         border-radius: 0px;
         padding: 25px;
+        width: auto;
     }
 
     .blockHebergement {
@@ -166,14 +172,7 @@
         margin: 0 auto; 
     }
 
-    header {
-        margin: 0;
-        width: 100%;
-    }
-
-    body {
-        margin: 0;
-    }
+    
     
 
 
